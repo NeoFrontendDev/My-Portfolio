@@ -29,24 +29,24 @@ Future upgrades will include:
 ## 📂 Projects Included
 1. **Travel Guide App**  
    A travel planner with quiz, weather, and location API integration.  
-   [GitHub Repo](https://github.com/yourusername/travel-guide-app) | [Live Demo](https://yourliveurl.com)
+   [GitHub Repo](https://github.com/NeoFrontendDev/travel-guide-app) | [Live Demo](https://yourliveurl.com)
 
 2. **GitHub User Search**  
    A React app to search GitHub profiles using the GitHub API.  
-   [GitHub Repo](https://github.com/yourusername/github-user-search) | [Live Demo](https://yourliveurl.com)
+   [GitHub Repo](https://github.com/NeoFrontendDev/github-user-search) | [Live Demo](https://yourliveurl.com)
 
 3. **Recipe Sharing App**  
    A recipe manager with state management and routing.  
-   [GitHub Repo](https://github.com/yourusername/recipe-sharing-app) | [Live Demo](https://yourliveurl.com)
+   [GitHub Repo](https://github.com/NeoFrontendDev/recipe-sharing-app) | [Live Demo](https://yourliveurl.com)
 
 ---
 
 ## 📬 Contact
 I’d love to connect!  
 
-- **Email:** your-email@example.com  
-- **LinkedIn:** [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)  
-- **GitHub:** [github.com/yourusername](https://github.com/yourusername)  
+- **Email:** neosammosebi01@gmail.com  
+- **LinkedIn:** [linkedin.com/in/yourprofile](https://www.linkedin.com/in/neo-mosebi-95b206358)  
+- **GitHub:** [github.com/yourusername](https://github.com/NeoFrontendDev)  
 
 ---
 
