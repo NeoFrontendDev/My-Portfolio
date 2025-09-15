@@ -26,7 +26,7 @@ nav {
 }
 
 nav .logo {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     color: #502D55;
 }
 
@@ -35,6 +35,7 @@ nav ul  {
     display: flex;
     justify-content: right;
     gap: 1rem;
+    font-size: 1.2rem;
 }
 
 nav a {
@@ -165,6 +166,7 @@ nav a:hover {
 .project-card {
     background: #954f74;
     padding: 20px;
+    height: 310px;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -178,6 +180,15 @@ nav a:hover {
 .project-card h3 {
     margin-bottom: 10px;
     color: #F8DAC2;
+}
+
+.project-card img {
+    width: 9.7rem;
+    height: 5.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
 }
 
 .project-card p {
@@ -200,4 +211,79 @@ nav a:hover {
 .project-link:hover {
     background: #F8DAC2;
     color: #29104A;
+}
+
+.contact {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.contact p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    background: #F8DAC2;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    width: 100%;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border: 2px solid #e3b6b1;
+    box-shadow: 0 0 8px rgba(227, 182, 177, 0.5);
+}
+
+.contact-form button {
+    padding: 12px;
+    background: #954f74;
+    color: #e3b6b1;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.contact-form button:hover {
+    background: #e3b6b1;
+    color: #502D55;
+    transform: translateY(-2px);
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 2rem;
+    color: #fff;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-links a:hover {
+    transform: scale(1.2);
+    color: #e3b6b1;
 }
