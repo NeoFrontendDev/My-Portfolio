@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=0.1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
         <title>Neo Mosebi | Portfolio</title>
         <link rel="stylesheet" href="style.css">
     </head>
@@ -57,9 +58,11 @@
 
         <section id="projects">
             <h2>Projects</h2>
-        <div class="projects-container">
+
+            <div class="projects-container">
             <div class="project-card">
                 <h3>Travel Guide App</h3>
+                <img src="images/travel_joy.jpeg" alt="travel joy website" />
                 <p>A travel planner with quiz, weather, and location API integration.</p>
                 <a href="https://github.com/NeoFrontendDev/Alx_capstone_project/tree/main/travel-joy" target="_blank" class="project-link">View Project</a>
             </div>
@@ -78,14 +81,28 @@
             </div>
         </section>
 
-        <section id="contact">
+        <section class="contact" id="contact">
             <h2>Contact</h2>
             <p>Let's connect</p>
-            <ul>
-                <li>Email: <a href="mailto:neosammosebi01@gmail.com">neosammosebi01@gmail.com</a></li>
-                <li>GitHub: <a href="https://github.com/NeoFrontendDev" target="_blank">github.com/NeoFrontendDev</a></li>
-                <li>LinkedIn: <a href="https://www.linkedin.com/in/neo-mosebi-95b206358" target="_blank">linkedin.com/in/neo-mosebi-95b206358</a></li>
-            </ul>
+
+        <form class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+
+        <div class="social-links">
+            <a href="https://github.com/NeoFrontendDev" target="_blank">
+            <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/neo-mosebi-95b206358" target="_blank">
+            <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="mailto:neosammosebi01@gmail.com">
+            <i class="fas fa-envelope"></i>
+            </a>
+        </div>
         </section>
 
         <footer>
