@@ -222,7 +222,7 @@ nav a:hover {
 }
 
 .project-card {
-    background: #954f74;
+    background: #502D55;
     padding: 20px;
     height: 310px;
     border-radius: 12px;
@@ -251,15 +251,15 @@ nav a:hover {
 
 .project-card p {
     font-size: 0.95rem;
-    color: #502D55;
+    color: #bd799d;
     margin-bottom: 15px;
 }
 
 .project-link {
     display: inline-block;
     padding: 8px 15px;
-    background: #502D55;
-    color: #F8DAC2;
+    background: #e3b6b1;
+    color: #29104a;
     text-decoration: none;
     border-radius: 6px;
     font-size: 0.9rem;
@@ -267,8 +267,8 @@ nav a:hover {
 }
 
 .project-link:hover {
-    background: #F8DAC2;
-    color: #29104A;
+    background: #29104A;
+    color: #bd799d;
 }
 
 .contact {
