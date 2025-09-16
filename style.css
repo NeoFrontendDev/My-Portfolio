@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: linear-gradient(to top, 
         #502D55,
@@ -22,11 +26,11 @@ header {
 nav {
     display: flex;
     align-items: center;
-    gap: 32rem;
+    gap: 27rem;
 }
 
 nav .logo {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     color: #502D55;
 }
 
@@ -35,7 +39,7 @@ nav ul  {
     display: flex;
     justify-content: right;
     gap: 1rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 nav a {
@@ -142,6 +146,60 @@ nav a:hover {
     font-size: 1.1rem;
     line-height: 1.7;
     color: #333;
+}
+
+#certificates {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#certificates h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #29104A;
+}
+
+.certificates-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.certificates-card {
+    background: #954f74;
+    padding: 20px;
+    min-height: 310px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.certificates-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.certificates-card h3 {
+    margin-bottom: 10px;
+    color: #F8DAC2;
+}
+
+.certificates-card img {
+    width: 100%;
+    height: auto;
+    max-height: 180px;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.certificates-card img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 #projects {
@@ -286,4 +344,12 @@ nav a:hover {
 .social-links a:hover {
     transform: scale(1.2);
     color: #e3b6b1;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #F8F4E9;
 }
