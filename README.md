@@ -40,7 +40,6 @@ Future upgrades will include:
 ## 📬 Contact
 I’d love to connect!  
 
-- **Message:** mailto:neosammosebi01@gmail.com
 - [**Email**](neosammosebi01@gmail.com)  
 - [**LinkedIn**](https://www.linkedin.com/in/neo-mosebi-95b206358)  
 - [**GitHub**](https://github.com/NeoFrontendDev)  
