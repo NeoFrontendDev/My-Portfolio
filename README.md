@@ -33,7 +33,7 @@ Future upgrades will include:
 
 2. **Coco Chic Beauty Salon**  
    A HTML, CSS and JavaScript website done as practice for a client.  
-   [GitHub Repo](https://github.com/NeoFrontendDev/) | [Live Demo](https://yourliveurl.com)
+   [GitHub Repo](https://github.com/NeoFrontendDev/Coco_Chic_Beauty_Salon) | [Live Demo](https://coco-chic-beauty-salon-kixe.vercel.app/)
 
 ---
 
