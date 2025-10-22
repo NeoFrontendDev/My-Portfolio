@@ -29,11 +29,11 @@ Future upgrades will include:
 ## 📂 Projects Included
 1. **Travel Guide App**  
    A travel planner with quiz, weather, and location API integration.  
-   [GitHub Repo](https://github.com/NeoFrontendDev/travel-guide-app) | [Live Demo](https://alx-capstone-project-zrtd.vercel.app/)
+   [GitHub Repo](https://github.com/NeoFrontendDev/travel-guide-app) | [Live Demo](https://alx-capstone-project-zrtd.vercel.app)
 
 2. **Coco Chic Beauty Salon**  
    A HTML, CSS and JavaScript website done as practice for a client.  
-   [GitHub Repo](https://github.com/NeoFrontendDev/Coco_Chic_Beauty_Salon) | [Live Demo](https://coco-chic-beauty-salon-kixe.vercel.app/)
+   [GitHub Repo](https://github.com/NeoFrontendDev/Coco_Chic_Beauty_Salon) | [Live Demo](https://coco-chic-beauty-salon-kixe.vercel.app)
 
 ---
 
